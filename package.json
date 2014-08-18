@@ -8,7 +8,7 @@
 , "version"         : "0.7.2"
 , "engines"         : {"node": ">=0.4.0"}
 , "main"            : "./lib/faye/websocket"
-, "dependencies"    : {"websocket-driver": ">=0.3.1"}
+, "dependencies"    : {"websocket-driver": "git+https://github.com/meteor/websocket-driver-node#dcd7c27"}
 , "devDependencies" : {"jstest": "", "pace": ""}
 
 , "scripts"         : {"test": "jstest spec/runner.js"}
