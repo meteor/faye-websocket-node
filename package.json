@@ -8,7 +8,7 @@
 , "version"         : "0.8.0"
 , "engines"         : {"node": ">=0.4.0"}
 , "main"            : "./lib/faye/websocket"
-, "dependencies"    : {"websocket-driver": ">=0.4.0"}
+, "dependencies"    : {"websocket-driver": "git+https://github.com/faye/websocket-driver-node#6eb04d5acc56a2aa8d3886d4b3797894b8a7a92b"}
 , "devDependencies" : {"jstest": "", "pace": ""}
 
 , "scripts"         : {"test": "jstest spec/runner.js"}
